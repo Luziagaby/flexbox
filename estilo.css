@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura da tela */
+    margin: 0;
+    background-color: #f0f0f0; /* Cor de fundo */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Espaço igual entre os divs */
+    width: 80%; /* Largura do contêiner */
+}
+
+.box {
+    width: 100px; /* Largura das divs */
+    height: 100px; /* Altura das divs */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.box1 {
+    background-color: #ff5733; /* Vermelho */
+}
+
+.box2 {
+    background-color: #33c1ff; /* Azul */
+}
+
+.box3 {
+    background-color: #75ff33; /* Verde */
+}
